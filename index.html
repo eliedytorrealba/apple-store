@@ -169,7 +169,7 @@
                     <h3>Manuel</h3>
 
                     <p>
-                        “El MacBook cambió mi forma de trabajar.”
+                        “La MacBook cambió mi forma de trabajar.”
                     </p>
 
                 </div>
@@ -208,19 +208,39 @@
 
             <h2>Contáctanos</h2>
 
-            <form>
+           <form action="https://formspree.io/f/mgoddgrn" method="POST">
 
-                <input type="text" placeholder="Tu nombre">
+                <input 
+                    type="text" 
+                    name="nombre"
+                    placeholder="Tu nombre"
+                    required
+    >
 
-                <input type="email" placeholder="Tu correo electrónico">
+                <input 
+                    type="email" 
+                    name="email"
+                    placeholder="Tu correo electrónico"
+                    required
+    >
 
-                <textarea placeholder="Escribe tu mensaje"></textarea>
+                <textarea 
+                name="mensaje"
+                placeholder="Escribe tu mensaje"
+                required
+                ></textarea>
 
-                <button type="submit">
-                    Enviar
-                </button>
+                <input 
+                    type="hidden" 
+                    name="_subject" 
+                    value="Nuevo mensaje desde Apple Store"
+    >
 
-            </form>
+    <button type="submit">
+        Enviar
+    </button>
+
+</form>
 
         </section>
 
