@@ -1,3 +1,8 @@
+console.log("Aplicación iniciada");
+
+obtenerProductos();
+
+/*
 const botonesComprar = document.querySelectorAll(".card button");
 
 botonesComprar.forEach((boton) => {
@@ -9,3 +14,4 @@ botonesComprar.forEach((boton) => {
     });
 
 });
+*/
